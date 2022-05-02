@@ -1,0 +1,19 @@
+{
+  "name": "testing-with-jest",
+  "version": "1.0.0",
+  "description": "Jest &amp; nmp test",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kroonfilip/testing-with-jest.git"
+  },
+  "author": "kroonfilip",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kroonfilip/testing-with-jest/issues"
+  },
+  "homepage": "https://github.com/kroonfilip/testing-with-jest#readme"
+}

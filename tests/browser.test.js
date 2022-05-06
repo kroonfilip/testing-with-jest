@@ -23,12 +23,12 @@ test('The stack should be empty in the beginning', async () => {
 	let stack = await driver.findElement(By.id('top_of_stack')).getText();
 	expect(stack).toEqual("n/a");
 });
-/*
+
 test('The element to press "poppa stacken" should be a button', async () =>{
 	let pop = await driver.findElement(By.id('pop')).getAttribute("type");
 	expect(pop).toEqual("btn")
 });
-*/
+
 
 
 describe('Clicking "Pusha till stacken"', () => {

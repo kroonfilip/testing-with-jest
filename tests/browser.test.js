@@ -26,7 +26,7 @@ test('The stack should be empty in the beginning', async () => {
 
 test('The element to press "poppa stacken" should be a button', async () =>{
 	let pop = await driver.findElement(By.id('pop')).getAttribute("type");
-	expect(pop).toEqual("btn")
+	expect(pop).toEqual("button")
 });
 
 

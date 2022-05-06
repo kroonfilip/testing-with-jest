@@ -21,5 +21,5 @@ test('peek on stack with two or more elements returns the top element', () => {
 test('show the length of the first element in stack', () => {
     let checkLength = stack.push("test");
     expect(stack.peek()).toBeDefined();
-    expect(stack.peek(checkLength).length).toBe("4");
+    expect(stack.peek(checkLength).length).toBe(4);
 });
